@@ -430,3 +430,159 @@ body.dark-mode .about-card:hover {
   gap: 36px;
 }
 
+/* =========================================
+   ABOUT ME — 모바일 완전 고정 패치 (정확 버전)
+   ========================================= */
+   @media (max-width: 768px) {
+
+    /* ABOUT 영역 전체 */
+    .about {
+      padding: 20px !important;
+    }
+  
+    /* 카드 형태 박스 */
+    .about-card, 
+    .about-box {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      gap: 18px !important;
+      width: 100% !important;
+      padding: 24px 16px !important;
+      box-sizing: border-box !important;
+    }
+  
+    /* 프로필 이미지 */
+    .about-box img,
+    .about-card img {
+      width: 140px !important;
+      height: auto !important;
+      border-radius: 10px !important;
+      display: block !important;
+      margin: 0 auto !important;
+      flex-shrink: 0 !important;
+    }
+  
+    /* 텍스트 영역 */
+    .about-text {
+      width: 100% !important;
+      text-align: center !important;
+      padding: 0 4px !important;
+      box-sizing: border-box !important;
+    }
+  
+    .about-text h3 {
+      font-size: 1.2rem !important;
+      margin-bottom: 8px !important;
+    }
+  
+    .about-text p {
+      font-size: 0.9rem !important;
+      line-height: 1.4 !important;
+      margin-bottom: 10px !important;
+    }
+  
+    /* 스킬 리스트 */
+    .about-text ul {
+      padding: 0 !important;
+      margin: 10px 0 !important;
+    }
+    .about-text ul li {
+      font-size: 0.85rem !important;
+      line-height: 1.4 !important;
+    }
+  }
+  
+  /* ============================
+   1) PROJECT 모바일 최적화
+   ============================ */
+@media (max-width: 768px) {
+
+  /* 프로젝트 카드 박스 간격 축소 */
+  .project-card,
+  .project {
+    padding: 28px 18px !important;
+    margin-bottom: 40px !important;
+    border-radius: 14px !important;
+  }
+
+  /* 프로젝트 제목/부제 폰트 최적화 */
+  .project h3 {
+    font-size: 1.2rem !important;
+    margin-bottom: 6px !important;
+  }
+
+  .project h4 {
+    font-size: 0.95rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* 프로젝트 설명 */
+  .project p {
+    font-size: 0.85rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* 버튼 */
+  .project a {
+    width: 100% !important;
+    padding: 12px 0 !important;
+    text-align: center !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+/* ============================
+   2) MOBILE HEADER FIX
+   ============================ */
+   @media (max-width: 768px) {
+    header {
+      padding: 14px 18px !important;
+    }
+  
+    header nav {
+      gap: 18px !important;
+    }
+  
+    header nav a {
+      font-size: 0.9rem !important;
+    }
+  
+    header h1 {
+      font-size: 1.1rem !important;
+    }
+  }
+/* ============================
+   3) IMAGE RESPONSIVE FIX
+   ============================ */
+   @media (max-width: 768px) {
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+      object-fit: cover !important;
+    }
+  }
+/* ============================
+   4) SECTION PADDING FIX
+   ============================ */
+   @media (max-width: 768px) {
+    section {
+      padding: 40px 16px !important;
+    }
+  
+    .section-title {
+      font-size: 1.4rem !important;
+      margin-bottom: 24px !important;
+    }
+  }
+/* ============================
+   5) MOBILE SCROLL ANIMATION FIX
+   ============================ */
+   @media (max-width: 768px) {
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+        
