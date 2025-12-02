@@ -8,6 +8,8 @@
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header class="header">
     <nav class="nav">
       <div class="logo">JIMIN</div>
@@ -20,177 +22,192 @@
     </nav>
   </header>
 
-  <main>
-    <!-- Home -->
-    <section id="home" class="section home fade-item">
-      <h1 class="hero-title">
-        Web Publisher<br />
-        <span>Front-End / JavaScript / React</span>
-      </h1>
-      <p class="hero-desc">
-        사용자 경험에 집중한 UI 구조를 만드는 웹 퍼블리셔 전지민입니다.
-      </p>
-    </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section fade-item">
-      <h2 class="section-title">PROJECTS</h2>
+  <!-- HERO -->
+  <section id="home" class="hero-section fade-item">
+    <h1 class="hero-title">Web Publisher</h1>
+    <h2 class="hero-sub">Front-End · UI Development</h2>
+    <p class="hero-desc">사용자 경험을 기반으로 웹 인터페이스를 설계하고 구현합니다.</p>
+  </section>
 
-      <div class="project-list">
 
-        <!-- Project 01 -->
-        <article class="project-card">
-          <header class="project-header">
-            <h3>P-Mart (React 쇼핑몰 UI)</h3>
-            <span class="stack-tag">React</span>
-          </header>
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">PROJECTS</h2>
 
-          <div class="project-body">
-            <p>
-              React 기반으로 제작한 쇼핑몰 UI로 JSON 데이터를 활용하여 상품을 동적으로 렌더링한 프로젝트입니다.
-            </p>
+    <div class="project-list">
 
-            <ul class="info-list">
-              <li><strong>주요 기능:</strong> 동적 렌더링, Router, 반응형 UI</li>
-              <li><strong>나의 역할:</strong> 전체 UI 퍼블리싱, 컴포넌트 구조 설계</li>
-              <li><strong>스택:</strong> React, JS(ES6+), JSON, CSS3</li>
-            </ul>
+      <!-- PROJECT 01 -->
+      <article class="project-card fade-item">
+        <div class="project-number">01</div>
+        <h3 class="project-title">P-Mart</h3>
+        <p class="project-sub">React 쇼핑몰 UI</p>
 
-            <button class="btn">MAIN PAGE</button>
+        <div class="row-layout project-gallery">
 
-            <div class="project-gallery">
-              <img src="Pmart.png" loading="lazy" />
-              <img src="Pmart_sub_01.gif" loading="lazy" />
-              <img src="Pmart_sub_02.gif" loading="lazy" />
-              <img src="Pmart_sub_03.gif" loading="lazy" />
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 02 -->
-        <article class="project-card">
-          <header class="project-header">
-            <h3>Interpark Open API</h3>
-            <span class="stack-tag">Open API</span>
-          </header>
-
-          <div class="project-body">
-            <p>
-              Open API를 호출해 실시간 상품 데이터를 UI에 렌더링한 프로젝트입니다.
-            </p>
-
-            <ul class="info-list">
-              <li><strong>주요 기능:</strong> AJAX API 통신, JSON 파싱</li>
-              <li><strong>나의 역할:</strong> API 연동, UI 구조화</li>
-              <li><strong>스택:</strong> JavaScript, AJAX, HTML5, CSS3</li>
-            </ul>
-
-            <button class="btn">MAIN PAGE</button>
-
-            <div class="project-gallery">
-              <img src="interpark.png" loading="lazy" />
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 03 -->
-        <article class="project-card">
-          <header class="project-header">
-            <h3>Elavate 기업형 반응형</h3>
-            <span class="stack-tag">Responsive</span>
-          </header>
-
-          <div class="project-body">
-            <p>
-              PC / Tablet / Mobile 3단 반응형 구조로 제작한 기업 랜딩형 웹사이트입니다.
-            </p>
-
-            <ul class="info-list">
-              <li><strong>주요 기능:</strong> 반응형, 슬라이더, 모바일 메뉴</li>
-              <li><strong>나의 역할:</strong> 퍼블리싱 100%</li>
-              <li><strong>스택:</strong> HTML5, CSS3, JS, jQuery</li>
-            </ul>
-
-            <button class="btn">MAIN PAGE</button>
-
-            <div class="project-gallery">
-              <img src="Elavate.png" loading="lazy" />
-              <img src="Elavate_sub_01.gif" loading="lazy" />
-              <img src="Elavate_sub_02.gif" loading="lazy" />
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 04 -->
-        <article class="project-card">
-          <header class="project-header">
-            <h3>On-The-Spot 쇼핑몰 UI</h3>
-            <span class="stack-tag">Shopping Mall</span>
-          </header>
-
-          <div class="project-body">
-            <p>
-              배너, 카테고리, 상품 카드까지 쇼핑몰 기본 구조를 직접 퍼블리싱한 프로젝트입니다.
-            </p>
-
-            <ul class="info-list">
-              <li><strong>주요 기능:</strong> 레이아웃, 반응형, 카테고리 UI</li>
-              <li><strong>나의 역할:</strong> 전체 UI 퍼블리싱</li>
-              <li><strong>스택:</strong> HTML5, CSS3, jQuery</li>
-            </ul>
-
-            <button class="btn">MAIN PAGE</button>
-
-            <div class="project-gallery">
-              <img src="Onthespot.png" loading="lazy" />
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="section fade-item">
-      <h2 class="section-title">ABOUT ME</h2>
-
-      <div class="about-wrap">
-        <img src="photo.jpg" alt="profile" class="profile-img" />
-
-        <div class="about-info">
-          <h3>전지민 (Jeon Ji-min)</h3>
-
-          <table class="info-table">
-            <tr><th>Birth</th><td>1995.12.26</td></tr>
-            <tr><th>Address</th><td>Suwon-si</td></tr>
-            <tr><th>Phone</th><td>010-6229-5145</td></tr>
-            <tr><th>E-mail</th><td>re-up@naver.com</td></tr>
-          </table>
-
-          <p class="intro">
-            사용자 경험 중심의 UI 퍼블리싱을 지향하며 React, JSON, Open API,
-            반응형 웹, 모바일 퍼스트 등 웹 개발의 핵심 기능들을 직접 구현해왔습니다.
-          </p>
-
-          <h4>SKILL</h4>
-          <ul class="skill-list">
-            <li>HTML5 / CSS3 (Flex, Grid)</li>
-            <li>JavaScript(ES6+) / jQuery</li>
-            <li>JSON / AJAX / Open API</li>
-            <li>React(컴포넌트 / 라우팅)</li>
-            <li>반응형 웹 / 모바일 퍼스트</li>
-            <li>Git / GitHub / VSCode</li>
-          </ul>
+          <a href="https://jeonjiminn.github.io/pmart-portfolio/" 
+              target="_blank" class="scroll-preview img-pc">
+            <img src="img/Pmart.png" class="scroll-img" />
+          </a>
+        
         </div>
-      </div>
-    </section>
-  </main>
+        
 
-  <footer class="footer">
-    © 2025 JEON JIMIN Portfolio
-  </footer>
+        <p class="project-desc">
+          React 기반으로 쇼핑몰 UI 구조를 설계하고 JSON 데이터를 활용해 상품 정보를 동적으로 렌더링한 프로젝트입니다.
+          전체 UI는 컴포넌트 단위로 분리해 재사용성을 높였으며, 리스트 렌더링과 Props 구조를 통해 동적 데이터가 자연스럽게 표시되도록 설계했습니다.
+          또한 Router를 이용한 페이지 전환을 구성해 실제 쇼핑몰의 흐름과 유사한 구조를 만들었으며,
+          퍼블리셔 관점에서 반응형 레이아웃·UI 설계까지 전체적으로 직접 구축했습니다.
+        </p>
+
+        <div class="project-info">
+          <span><strong>역할</strong> 전체 퍼블리싱 · 컴포넌트 구조 설계</span><br>
+          <span><strong>스택</strong> React · JS(ES6+) · JSON · CSS3</span>
+        </div>
+
+        <a href="https://jeonjiminn.github.io/pmart-portfolio/" class="project-btn" target="_blank">VIEW PROJECT</a>
+      </article>
+
+
+      <!-- PROJECT 02 -->
+      <article class="project-card fade-item">
+        <div class="project-number">02</div>
+        <h3 class="project-title">Interpark API</h3>
+        <p class="project-sub">Open API 기반 상품 UI</p>
+
+        <div class="row-layout project-gallery">
+
+          <a href="https://jeonjiminn.github.io/interpark/main" 
+              target="_blank" class="scroll-preview img-pc">
+            <img src="img/interpark.png" class="scroll-img" />
+          </a>
+        
+        </div>
+        
+
+        <p class="project-desc">
+          Open API를 통해 실시간 상품 데이터를 받아 UI에 렌더링하는 기능을 중심으로 제작한 프로젝트입니다.
+          AJAX 기반으로 API를 호출해 비동기 방식으로 JSON 데이터를 처리했으며,
+          받아온 데이터를 UI 요소에 동적으로 매핑하는 템플릿 구조를 직접 설계했습니다.
+          퍼블리셔 역할로서 확장 가능한 구조의 UI 템플릿을 구성했으며,
+          API 응답 오류 대비 로딩 처리 등 실무적인 예외처리 구조도 함께 고려하여 구현했습니다.
+        </p>
+
+        <div class="project-info">
+          <span><strong>역할</strong> API 연동 + UI 퍼블리싱</span><br>
+          <span><strong>스택</strong> JavaScript · AJAX · JSON · CSS3</span>
+        </div>
+
+        <a href="https://jeonjiminn.github.io/interpark/main" class="project-btn" target="_blank">VIEW PROJECT</a>
+      </article>
+
+
+      <!-- PROJECT 03 -->
+      <article class="project-card fade-item">
+        <div class="project-number">03</div>
+        <h3 class="project-title">Elavate</h3>
+        <p class="project-sub">기업형 반응형 웹</p>
+
+        <div class="row-layout project-gallery">
+
+          <a href="https://jeonjiminn.github.io/elevate/index" 
+              target="_blank" class="scroll-preview img-pc">
+            <img src="img/Elavate.png" class="scroll-img" />
+          </a>
+        
+        </div>
+        
+
+        <p class="project-desc">
+          PC · Tablet · Mobile 환경을 모두 고려한 기업형 반응형 랜딩 페이지로,
+          Flex/Grid 레이아웃 기반으로 해상도에 따라 UI 요소를 재배치하는 구조를 설계했습니다.
+          jQuery 기반의 슬라이더·모바일 메뉴 인터랙션을 직접 구현했으며,
+          HTML semantic 구조와 CSS 모듈 구조를 중심으로 유지보수성이 높은 UI 퍼블리싱을 수행했습니다.
+          특히 콘텐츠 우선순위와 사용자 흐름을 고려한 레이아웃 설계를 통해 실제 기업 랜딩 페이지와 유사한 구조를 완성했습니다.
+        </p>
+
+        <div class="project-info">
+          <span><strong>역할</strong> 전체 퍼블리싱</span><br>
+          <span><strong>스택</strong> HTML5 · CSS3 · JS · jQuery</span>
+        </div>
+
+        <a href="https://jeonjiminn.github.io/elevate/index" class="project-btn" target="_blank">VIEW PROJECT</a>
+      </article>
+
+
+      <!-- PROJECT 04 -->
+      <article class="project-card fade-item">
+        <div class="project-number">04</div>
+        <h3 class="project-title">On-The-Spot</h3>
+        <p class="project-sub">쇼핑몰 UI 구성</p>
+
+        <div class="row-layout project-gallery">
+
+          <a href="https://jeonjiminn.github.io/on.the.spot/html/index.html" 
+              target="_blank" class="scroll-preview img-pc">
+            <img src="img/Onthespot.png" class="scroll-img" />
+          </a>
+        
+        </div>
+        
+
+        <p class="project-desc">
+          쇼핑몰 UI에서 반복적으로 사용되는 배너, 카테고리, 상품 카드 등 핵심 UI 컴포넌트를 직접 퍼블리싱한 프로젝트입니다.
+          HTML/CSS 기반으로 재사용 가능한 블록 단위 컴포넌트를 설계해 유지보수성을 높였으며,
+          사용자 흐름에 따라 콘텐츠 우선순위를 배치해 실제 쇼핑몰 구조와 유사한 레이아웃을 구현했습니다.
+          jQuery를 활용해 메뉴 활성화, 탭 전환 등의 인터랙션을 구성했으며 전체 UI 구조의 통일성과 일관성을 중심으로 제작했습니다.
+        </p>
+
+        <div class="project-info">
+          <span><strong>역할</strong> 전체 퍼블리싱</span><br>
+          <span><strong>스택</strong> HTML5 · CSS3 · jQuery</span>
+        </div>
+
+        <a href="https://jeonjiminn.github.io/on.the.spot/html/index.html" class="project-btn" target="_blank">VIEW PROJECT</a>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT ME -->
+  <section id="about" class="section">
+    <h2 class="section-title">ABOUT ME</h2>
+  
+    <div class="about-card about-grid">
+      
+      <!-- 왼쪽: 프로필 이미지 -->
+      <div class="about-left">
+        <img src="img/jeonjimin.jpg" alt="profile" class="about-photo" />
+      </div>
+  
+      <!-- 오른쪽: 텍스트 -->
+      <div class="about-right">
+        <div class="about-name">전지민 (Jeon Ji-min)</div>
+  
+        <p class="about-desc">
+          사용자 중심의 UI 퍼블리싱을 지향하며 React, JSON, Open API, 반응형 웹 등
+          실제 웹 개발에서 필요한 기능들을 직접 구현해왔습니다.
+        </p>
+  
+        <ul class="skills-list">
+          <li>HTML5 / CSS3 (Flex, Grid)</li>
+          <li>JavaScript(ES6+) / jQuery</li>
+          <li>React 컴포넌트 / 라우터</li>
+          <li>JSON / AJAX / Open API</li>
+          <li>반응형 웹 / 모바일 퍼스트</li>
+          <li>Git / GitHub / VSCode</li>
+          <li>Adobe photoshop / Illustrator </li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  
+
+
+  <footer class="footer">© 2025 JEON JIMIN Portfolio</footer>
 
   <script src="js/scripts.js"></script>
-
 </body>
 </html>
